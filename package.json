@@ -1,0 +1,37 @@
+{
+  "name": "@nacelle/nacelle-klaviyo-nuxt-module",
+  "version": "0.0.1",
+  "description": "Integrates Klaviyo into your Nacelle Nuxt project",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Nacelle"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/ShopElf/nacelle-klaviyo-nuxt-module",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@nacelle/nacelle-nuxt-module": "0.0.83",
+    "@nacelle/nacelle-vue-components": "0.0.93",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "nuxt": "^2.8.1"
+  }
+}
