@@ -1,6 +1,8 @@
 <template>
   <div>
     Nacelle Klaviyo Nuxt Module
+    <klaviyo-form />
+    <klaviyo-embed-form />
   </div>
 </template>
 

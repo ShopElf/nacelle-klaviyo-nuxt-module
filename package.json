@@ -22,8 +22,8 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "@nacelle/nacelle-nuxt-module": "0.0.83",
-    "@nacelle/nacelle-vue-components": "0.0.93",
+    "@nacelle/nacelle-nuxt-module": "0.0.84",
+    "@nacelle/nacelle-vue-components": "0.0.94",
     "@nuxtjs/eslint-config": "^1.0.1",
     "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
@@ -33,5 +33,8 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.3",
     "nuxt": "^2.8.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
   }
 }

@@ -13,7 +13,11 @@ module.exports = {
   nacelle: {
     endpoint: 'https://getnacelle.com',
     token: 'abc123',
-    klaviyo: '1234'
+    klaviyo: {
+      companyId: '',
+      defaultListId: '',
+      defaultEmbedCode: ''
+    }
   },
   build: {
     transpile: ['@nacelle/nacelle-vue-components']
