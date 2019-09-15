@@ -47,9 +47,9 @@ nacelle: {
 },
 ```
 
-### Add the components to your 
+### Add the Components your Nacelle Storefront
 
-There are two components you can add to your Nacelle site: `<klaviyo-form />` and `<klaviyo-embed-form />`.
+There are two components you can add to your Nacelle storefront: `<klaviyo-form />` and `<klaviyo-embed-form />`.
 
 **Klaviyo Embed Form** will display the sign up form you specified in the `defaultEmbedCode` option. You can also optionally pass a `embed-code` prop to specify a different sign up form.
 
