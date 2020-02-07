@@ -1,11 +1,14 @@
 # Nacelle Klaviyo Nuxt Module
 
+[![npm version](https://img.shields.io/npm/v/@nacelle/nacelle-klaviyo-nuxt-module.svg)](https://www.npmjs.com/package/@nacelle/nacelle-klaviyo-nuxt-module)
+[![install size](https://packagephobia.now.sh/badge?p=@nacelle/nacelle-klaviyo-nuxt-module)](https://packagephobia.now.sh/result?p=@nacelle/nacelle-klaviyo-nuxt-module)
+
 Adds Vue.js components for displaying [Klaviyo](https://www.klaviyo.com/) forms in your [Nacelle](https://getnacelle.com/) Nuxt project.
 
 ## Requirements
 
-* A Nacelle project set up locally. See https://docs.getnacelle.com for getting started.
-* A Klaviyo account and app installed on your Shopify store.
+- A Nacelle project set up locally. See https://docs.getnacelle.com for getting started.
+- A Klaviyo account and app installed on your Shopify store.
 
 ## Setup
 
