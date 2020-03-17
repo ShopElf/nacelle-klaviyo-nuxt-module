@@ -14,7 +14,7 @@ Adds Vue.js components for displaying [Klaviyo](https://www.klaviyo.com/) forms 
 
 ### Add Module to Nacelle
 
-Once you hace Nacelle and Klaviyo set up you can install this module in your project from `npm`:
+Once you have Nacelle and Klaviyo set up you can install this module in your project from `npm`:
 
 ```
 npm install @nacelle/nacelle-klaviyo-nuxt-module --save
@@ -43,10 +43,10 @@ nacelle: {
   gaID: process.env.NACELLE_GA_ID,
   fbID: process.env.NACELLE_FB_ID,
   klaviyo: {
-      companyId: 'XXXX',
-      defaultListId: 'XXXXX',
-      defaultEmbedCode: '<div class="klaviyo-form-XXXXX"></div>'
-    }
+    companyId: 'XXXX',
+    defaultListId: 'XXXXX',
+    defaultEmbedCode: '<div class="klaviyo-form-XXXXX"></div>'
+  }
 },
 ```
 
@@ -57,3 +57,7 @@ There are two components you can add to your Nacelle storefront: `<klaviyo-form 
 **Klaviyo Embed Form** will display the sign up form you specified in the `defaultEmbedCode` option. You can also optionally pass a `embed-code` prop to specify a different sign up form.
 
 **Klaviyo Form** will render a [Legacy Embedded Signup Form](https://help.klaviyo.com/hc/en-us/articles/115005249588-Add-and-Customize-a-Legacy-Embedded-Signup-Form) with a field for email address. It has props for `list-id`, `title`, `email-placeholder`, `submit-button-text`, and `success-message`.
+
+### GDPR Settings
+
+Klaviyo offers a form builder to help you configure branded forms with GDPR-compliant consent collection and display of terms & conditions. For more information, please refer to [this blog post](https://www.klaviyo.com/blog/gdpr-made-easy) and [Klaviyo's GDPR compliance docs](https://help.klaviyo.com/hc/en-us/articles/360003536031-Collect-GDPR-Compliant-Consent).
