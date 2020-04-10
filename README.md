@@ -34,7 +34,7 @@ modules: [
 
 Next you will have to add the Klaviyo configuration options to `nuxt.config.js` in the `nacelle` config object. You will need a company id, default list id, and default embed code.
 
-In your Klaviyo account dashboard find your company ID under "Account > Settings > API Keys" and copy the "public API / Site ID". The default list ID is for setting the list you would like the Klaviyo Form component to send submissions to. Select the list and find its list ID under "Settings". Finally defauly embed code is the code snippet provided by Klaviyo for the sign up form you would like the Klaviyo Embed Form component to display. That can be found in the Sign Up form editor under the "Behaviors" tab. When you have these values ready paste them in `nuxt.config.js` so the `nacelle` object should look something like this:
+In your Klaviyo account dashboard find your company ID under "Account > Settings > API Keys" and copy the "public API / Site ID". The default list ID is for setting the list you would like the Klaviyo Form component to send submissions to. Select the list and find its list ID under "Settings". Finally default embed code is the code snippet provided by Klaviyo for the sign up form you would like the Klaviyo Embed Form component to display. That can be found in the Sign Up form editor under the "Behaviors" tab. When you have these values ready paste them in `nuxt.config.js` so the `nacelle` object should look something like this:
 
 ```
 nacelle: {
