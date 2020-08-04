@@ -10,7 +10,7 @@
       target="_blank"
       novalidate="novalidate"
     >
-      <input type="hidden" name="g" :value="list">
+      <input type="hidden" name="g" :value="list" />
       <div class="klaviyo_form_actions">
         <label for="k_id_email">Email</label>
         <input
@@ -20,13 +20,13 @@
           value=""
           name="email"
           :placeholder="emailPlaceholder"
-        >
+        />
       </div>
       <div class="klaviyo_messages">
-        <div class="success_message" style="display:none;">
+        <div class="success_message" style="display: none;">
           <h2>{{ successMessage }}</h2>
         </div>
-        <div class="error_message" style="display:none;" />
+        <div class="error_message" style="display: none;" />
         <div class="klaviyo_form_actions">
           <button type="submit" class="klaviyo_submit_button">
             {{ submitButtonText }}
@@ -61,14 +61,14 @@ export default {
       default: 'Thanks for signing up!'
     }
   },
-  data () {
+  data() {
     return {}
   },
   computed: {
-    formClass () {
+    formClass() {
       return `form klaviyo_styling klaviyo_gdpr_embed_${this.list}`
     },
-    list () {
+    list() {
       if (this.listId) {
         return this.listId
       }
@@ -76,7 +76,7 @@ export default {
       return this.$nacelle.klaviyo.defaultListId
     }
   },
-  mounted () {
+  mounted() {
     const KlaviyoSubscribe = window.KlaviyoSubscribe || {}
 
     if (KlaviyoSubscribe.attachToForms) {

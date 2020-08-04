@@ -11,7 +11,7 @@ export default {
     }
   },
   computed: {
-    snippet () {
+    snippet() {
       if (this.embedCode) {
         return this.embedCode
       }
