@@ -1,6 +1,6 @@
 {
   "name": "@nacelle/nacelle-klaviyo-nuxt-module",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Integrates Klaviyo into your Nacelle Nuxt project",
   "license": "MIT",
   "contributors": [
