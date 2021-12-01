@@ -1,4 +1,4 @@
-# Nacelle Klaviyo Nuxt Module
+# [DEPRECATED] Nacelle Klaviyo Nuxt Module
 
 [![npm version](https://img.shields.io/npm/v/@nacelle/nacelle-klaviyo-nuxt-module.svg)](https://www.npmjs.com/package/@nacelle/nacelle-klaviyo-nuxt-module)
 [![install size](https://badgen.net/bundlephobia/minzip/@nacelle/nacelle-klaviyo-nuxt-module)](https://badgen.net/bundlephobia/minzip/@nacelle/nacelle-klaviyo-nuxt-module)
